@@ -56,5 +56,10 @@ require("lazy").setup({
     dependencies = {'nvim-tree/nvim-web-devicons'},
   },
   { 'norcalli/nvim-colorizer.lua' },
-  {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
+  {'akinsho/toggleterm.nvim', version = "*", config = true},
+  {
+    'stevearc/conform.nvim',
+    opts = {},
+  },
+  { 'mfussenegger/nvim-lint' }
 })
