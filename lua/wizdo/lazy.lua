@@ -57,9 +57,10 @@ require("lazy").setup({
   },
   { 'norcalli/nvim-colorizer.lua' },
   {'akinsho/toggleterm.nvim', version = "*", config = true},
-  {
-    'stevearc/conform.nvim',
-    opts = {},
-  },
-  { 'mfussenegger/nvim-lint' }
+  { 'nvimtools/none-ls.nvim', event = "VeryLazy"},
+  -- {
+  --   'stevearc/conform.nvim',
+  --   opts = {},
+  -- },
+  -- { 'mfussenegger/nvim-lint' },
 })

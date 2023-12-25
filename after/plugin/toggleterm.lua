@@ -1,6 +1,7 @@
 require('toggleterm').setup {
   size = 20,
   open_mapping = [[<leader>h]],
+  insert_mappings = false,
   hide_numbers = true,
   start_in_insert = true,
   direction = 'float',
